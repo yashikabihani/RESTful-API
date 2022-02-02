@@ -1,19 +1,13 @@
-<p align="center">
-  <img src="https://seeklogo.com/images/G/getir-logo-489FC74138-seeklogo.com.png" />
-</p>
-
 ## Requirements ✔️
 
 - The code is written in Node.js using express framework.
 - The endpoint handles an HTTP POST request.
-- The application is deployed on Heroku.
 - The upto date repo is publicly available in GitHub
 
 ## Deliverables ✔️
 
 - The public repo URL.
-- Heroku POST requests to -
-- A working RESTful API
+- A working RESTful API.
 
 Example result for sending the following JSON Body to the API endpoint.
 
@@ -363,8 +357,6 @@ If you provide a valid payload it will deliver the correct result as intended.
 
 ## Sample inputs and outputs
 
-All of the below were performed by sending POST requests to https://getir-ankara.herokuapp.com/getir
-
 ```
 Request payload: (minCount is greater than maxCount)
 {
@@ -382,3 +374,4 @@ Response payload:
 ---
 
 ### Footer note
+The app is to be run locally. Changing the port in app.js
